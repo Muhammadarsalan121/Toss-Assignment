@@ -6,10 +6,10 @@ function tossCoin(userChoice) {
 
     if (randomNumber === 1) {
         result = "heads";
-        coinImage.innerHTML = '<img src="/images.jpg" alt="Heads">';
+        coinImage.innerHTML = '<img src="/download.jpg" alt="Heads">';
     } else {
         result = "tails";
-        coinImage.innerHTML = '<img src="/tail.jpg" alt="Tails">';
+        coinImage.innerHTML = '<img src="/tails.jpg" alt="Tails">';
     }
 
     if (randomNumber === userChoice) {
